@@ -1,0 +1,31 @@
+footer {
+    background-color: #353541;
+    color: #FFFF;
+    display: flex;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFF;
+}
+
+.izquierda {
+    width: 40%;
+}
+
+.cuadro-texto {
+    width: 90%;
+    padding: 10px 20px 15px 20px;
+}
+
+.derecha {
+    width: 40%;
+    display: flex;
+    margin:  0 auto;
+}
+
+.seccion-footer {
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px 50px;
+}
