@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos, solicita tu cotización</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <iframe src="./header.html" frameborder="0" scrolling="no" width="100%" height="150px" title="header"></iframe>
+    <main>
+        <h2 id="cont-title">Cotiza con nosotros</h2>
+        <section class="cotizacion">
+            <form method="post">
+                <p>
+                    <label for="nombre" class="label-contacto">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+                <p>
+                    <label for="email" class="label-contacto">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+                <p>
+                    <label for="telefono" class="label-contacto">Telefono</label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Escribe tu numero de telefono">
+                </p>
+                <p>
+                    <label for="asunto" class="label-contacto">Asunto
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="asunto" id="asunto" required="obligatorio" placeholder="Escribe el asunto">
+                </p>
+                <p>
+                    <label for="mensaje" class="mensaje">mensaje
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario sobre la cotizacion que requieres"></textarea>
+                </p>
+                <input type="submit" value="Enviar" class="button">
+                <p>
+                    <span class="obligatorio">*</span>Los campos son obligatorios
+                </p>
+            </form>
+        </section>
+    </main>
+    <iframe src="./footer.html" frameborder="0" scrolling="no" width="100%" height="200px" title="footer"></iframe>    
+</body>
+</html>
